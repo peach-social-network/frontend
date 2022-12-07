@@ -25,4 +25,4 @@
 
 
 ## Ссылки:
-<a href="./Structure.md">Структура проекта</a>
+<a href="https://github.com/peach-social-network/frontend/blob/dev/Documentation.md">Структура проекта</a>
