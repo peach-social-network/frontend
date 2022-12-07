@@ -1,0 +1,41 @@
+{
+  "plugins": ["jest"],
+  "rules": {
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "indent": ["error", 2],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+    "semi": [2, "always"]
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass", 
+      "pragma": "React",  
+      "fragment": "Fragment", 
+      "flowVersion": "0.53" 
+    },
+    "componentWrapperFunctions": [
+        "observer", 
+        {"property": "styled"}, 
+        {"property": "observer", "object": "Mobx"},
+        {"property": "observer", "object": "<pragma>"} 
+    ],
+    "formComponents": [
+      "CustomForm",
+      {"name": "Form", "formAttribute": "endpoint"}
+    ],
+    "linkComponents": [
+      "Hyperlink",
+      {"name": "Link", "linkAttribute": "href"}
+    ]
+  }
+}
