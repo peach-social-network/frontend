@@ -6,5 +6,5 @@ interface IProps {
 }
 
 export const Button:FC<IProps> = ({onClick, children}) => {
-    return <button onClick={onClick}>{children}</button>;
+  return <button onClick={onClick}>{children}</button>;
 };

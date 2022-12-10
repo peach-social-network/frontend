@@ -18,7 +18,14 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["app/components/*"],
-    }
+      "@/pages/*": ["app/pages/*"],
+      "@/utils/*": ["app/utils/*"],
+      "@/assets/*": ["app/assets/*"]
+    },
+    "types": [
+      "node",
+      "webpack-env"
+    ],
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
