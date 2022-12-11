@@ -1,3 +1,4 @@
+const path = require("path");
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 /** @type {import('next').NextConfig} */
@@ -7,6 +8,10 @@ const nextConfig = {
     styledComponents: true
   },
   swcMinify: true,
+  sassOptions: {
+    includePaths: [path.join(__dirname, './app/styles')],
+    prependData: `@import "@/styles/resources/index.scss";`
+  },
   images : {
     domains : ['localhost']
   },
