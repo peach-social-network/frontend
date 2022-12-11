@@ -20,8 +20,7 @@
       "@/components/*": ["app/components/*"],
       "@/pages/*": ["app/pages/*"],
       "@/utils/*": ["app/utils/*"],
-      "@/assets/*": ["app/assets/*"],
-      "@/styles/*": ["app/styles/*"]
+      "@/assets/*": ["app/assets/*"]
     },
     "types": [
       "node",
