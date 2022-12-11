@@ -13,6 +13,19 @@ const Home = observer(() => {
       <h1>Hello</h1>
       <CommonIcon name={"star"} width={24} height={24} />
       <Button onClick={() => console.log("click")}>Test</Button>
+      <div className="d-f jc-sb mt-16 w-50">
+        <div className={"mr-4"}>
+          test
+        </div>
+        <div>
+          <div>
+            123123
+          </div>
+          <div className="ml-12">
+            123
+          </div>
+        </div>
+      </div>
     </div>
   );
 });
